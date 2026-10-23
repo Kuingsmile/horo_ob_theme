@@ -104,17 +104,6 @@ Horo does not download fonts. It uses these fonts when they are installed and fa
 
 For the full storybook look, install **Fraunces** and **Nunito**. You can also set any font yourself in *Settings → Appearance → Font*.
 
-## Releasing
-
-Update `version` in `manifest.json` and commit the theme changes and workflow to GitHub. Then create and push a tag that exactly matches that version, without a `v` prefix, as required by [Obsidian](https://docs.obsidian.md/themes/app-themes/submit-theme):
-
-```sh
-git tag 1.0.0
-git push origin 1.0.0
-```
-
-The **Release** workflow checks the version and theme files, then publishes a GitHub release with generated release notes and attaches `manifest.json` and `theme.css`. It uses the built-in `GITHUB_TOKEN`; no extra secrets are needed.
-
 ## Credits
 
 - Holo and *Spice and Wolf* (狼と香辛料) are the creations of Isuna Hasekura, illustrated by Jū Ayakura. Horo is an unofficial fan theme and is not affiliated with the original work or its publishers.
